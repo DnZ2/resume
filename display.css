@@ -1,0 +1,58 @@
+
+.info{
+    display: flex;
+}
+.info .description{
+   width: 50%;
+   margin-left: 20px;
+}
+.forma .login{
+ 
+    margin-right: 20px;
+    width: 50%;
+}
+   
+.forma{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+label{
+    color: #000;
+}
+input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #aaa;
+    background-color: #999;
+    padding: 0;
+    padding-top: 5px;
+    outline: none;
+}
+textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #aaa;
+    width: 600px;
+    padding: 0;
+    padding-top: 5px;
+    outline: none;
+}
+.form h3{
+    text-align: center;
+}
+@media (max-width:650px){
+    .info{
+        display: block;
+        margin-left: 0px;
+    }
+    .info .description{
+         text-align: center;
+     }
+    .forma{
+        display: block;
+    }
+}

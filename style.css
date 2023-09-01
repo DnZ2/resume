@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+body {
+    font-family: 'Roboto' sans-serif;
+    word-spacing: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    background: #999;
+}
+
+.picture{
+ width: 250px;
+ box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+ border-radius: 10px;
+ border-color: #999;
+ border: 2px;
+}
+
+.form {
+    max-width: 600px;
+}
+
+.description {
+   margin: 0;
+   padding: 0;
+  
+}
+
+.hobby {
+    max-width: 600px;
+    margin: 0px;
+    padding: 4px 20px 0px 20px;
+    border-bottom: 10px solid darkgreen;
+    border-radius: 10px;
+    background-color: #02a698 ;
+}
+.expirience {
+    max-width: 600px;
+    margin: 10px 0px 0px 0px;
+    padding: 4px 20px 0px 20px;
+    border-bottom: 10px solid darkblue;
+    border-radius: 10px;
+    background-color: #9dd7fc;
+}
+
+.name {
+    background: #999;
+}
+.description p {
+    font-style: italic;
+}
+.head{
+    margin: 0;
+}
+.btn{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+}
+.btn:hover{
+    color:orange;
+    cursor: pointer;
+}
+.btn:active{
+    color: blue;
+}
+a{
+    color: #eee;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:#000;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: blue;
+}

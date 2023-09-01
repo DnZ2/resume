@@ -1,0 +1,23 @@
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li{
+    margin: 10px 0px;
+    padding: 5px;
+    border-left: 2px solid #eee;
+    border-radius: 10px;
+}
+table{
+    margin: 0px 0px 10px 0px;
+}
+.table td{
+    text-align: center;
+    padding: 5px 5px;
+}
+.table tr:first-child{
+    background-color: #9ff0fc;
+}
+
