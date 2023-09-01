@@ -1,4 +1,4 @@
 # Итоговый проект
 ## Никитенко Алексей
 
-[Резюме](https://github.com/DnZ2/resume)
+[Резюме](https://dnz2.github.io/resume/)
